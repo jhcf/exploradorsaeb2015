@@ -15,6 +15,7 @@
 #--------------------------------------------------------
 #  AUTOR:                                                                                                      
 #           Jorge H C Fernandes (jhcf@unb.br)
+#           https://github.com/jhcf/exploradorsaeb2015
 #--------------------------------------------------------
 
 #------------------------------------------------------------------------
@@ -956,7 +957,7 @@ dataset <- saeb
 
 ui <- fluidPage(
   
-  titlePanel("Explorador do SAEB 2015 - Questionário Diretores - Autor: Jorge H C Fernandes (jhcf@unb.br)"),
+  titlePanel("Explorador do SAEB 2015 - Questionário Diretores - https://github.com/jhcf/exploradorsaeb2015"),
   
   sidebarPanel(
   
