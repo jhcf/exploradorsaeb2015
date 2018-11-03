@@ -80,166 +80,166 @@ saeb$TX_RESP_Q001 <- factor(saeb$TX_RESP_Q001,levels=c('A','B'),
 
 saeb$TX_RESP_Q002 <- factor(saeb$TX_RESP_Q002,levels=c('A','B','C','D','E','F'),
                             labels=c(
-                              'Até 24',
-                              '25 a 29',
-                              '30 a 39',
-                              '40 a 49',
-                              '50 a 54',
-                              '>= 55'))
+                              'Até 24 anos',
+                              'De 25 a 29 anos',
+                              'De 30 a 39 anos',
+                              'De 40 a 49 anos',
+                              'De 50 a 54 anos',
+                              '55 anos ou mais'))
 
 saeb$TX_RESP_Q003 <- factor(saeb$TX_RESP_Q003,levels=c('A','B','C','D','E','F','G'),
                             labels=c(
-                              'Branco',
-                              'Pardo',
-                              'Preto',
-                              'Amarelo',
-                              'Indíg.',
-                              'Não quero decl.',
+                              'Branco(a)',
+                              'Pardo(a)',
+                              'Preto(a)',
+                              'Amarelo(a)',
+                              'Indígena',
+                              'Não quero declarar',
                               'Não sei'))
 
 saeb$TX_RESP_Q004 <- factor(saeb$TX_RESP_Q004,levels=c('A','B','C','D','E','F','G','H','I'),
                             labels=c(
-                              '< Ensino Médio',
-                              'Magistério',
-                              'Ensino Médio-Outros',
-                              'Superior-Pedag.',
-                              'Superior-Normal',
-                              'Superior-Lic.Mat.',
-                              'Superior-Lic.Letras',
-                              'Superior-Outr.Lic.',
-                              'Superior-Outr.Áreas'))
+                              'Menos que o Ensino Médio (antigo 2º grau)',
+                              'Ensino Médio - Magistério (antigo 2º grau)',
+                              'Ensino  Médio - Outros (antigo 2º grau)',
+                              'Ensino Superior - Pedagogia',
+                              'Ensino Superior - Curso Normal Superior',
+                              'Ensino Superior - Licenciatura em Matemática',
+                              'Ensino Superior - Licenciatura em Letras',
+                              'Ensino Superior - Outras Licenciaturas',
+                              'Ensino Superior - Outras áreas'))
 
 saeb$TX_RESP_Q005 <- factor(saeb$TX_RESP_Q005,levels=c('A','B','C','D','E'),
                             labels=c(
-                              '< 2',
-                              '2 a 7',
-                              '8 a 14',
-                              '15 a 20',
-                              '> 20'))
+                              'Há menos de 2 anos',
+                              'De 2 a 7 anos',
+                              'De 8 a 14 anos',
+                              'De 15 a 20 anos',
+                              'Há mais de 20 anos'))
 
 saeb$TX_RESP_Q006 <- factor(saeb$TX_RESP_Q006,levels=c('A','B','C','D','E'),
                             labels=c(
-                              'Não conc.sup.',
-                              'Priv',
-                              'Púb. Fed',
-                              'Púb. Est',
-                              'Púb. Mun'))
+                              'Não concluí o ensino superior',
+                              'Privada',
+                              'Pública Federal',
+                              'Pública Estadual',
+                              'Pública Municipal'))
 
 saeb$TX_RESP_Q007 <- factor(saeb$TX_RESP_Q007,levels=c('A','B','C','D'),
                             labels=c(
-                              'Não con.sup.',
+                              'Não concluí o ensino superior',
                               'Presencial',
-                              'Semipresenc.',
+                              'Semipresencial',
                               'A distância'))
 
 saeb$TX_RESP_Q008 <- factor(saeb$TX_RESP_Q008,levels=c('A','B','C','D','E'),
                             labels=c(
-                              'Não fiz/não complet.pós',
-                              'Atualiz/Aperfeiç (mín 180 h)',
-                              'Espec. (mínimo de 360 h)',
+                              'Não fiz ou não completei curso de pós-graduação',
+                              'Atualização ou Aperfeiçoamento (mínimo 180 horas)',
+                              'Especialização (mínimo de 360 horas)',
                               'Mestrado',
                               'Doutorado'))
 
 saeb$TX_RESP_Q009 <- factor(saeb$TX_RESP_Q009,levels=c('A','B','C','D','E','F'),
                             labels=c(
-                              'Não fiz/não complet pós',
-                              'Educ., ênfase alfabet.',
-                              'Educ., ênfase linguíst.',
-                              'Educ., ênfase educ. mat.',
-                              'Educ., outras ênfases',
-                              'Outras áreas: não educ.'))
+                              'Não fiz ou não completei curso de pós-graduação',
+                              'Educação, enfatizando alfabetização',
+                              'Educação, enfatizando linguística e/ou letramento',
+                              'Educação, enfatizando educação matemática',
+                              'Educação - outras ênfases',
+                              'Outras áreas que não a Educação'))
 
 saeb$TX_RESP_Q010 <- factor(saeb$TX_RESP_Q010,levels=c('A','B','C','D','E','F','G','H','I','J','K'),
                             labels=c(
                               'Até R$ 788,00',
-                              'R$ >= 788,01',
-                              'R$ >= 1.182,01',
-                              'R$ >= 1.576,01',
-                              'R$ >= 1.970,01',
-                              'R$ >= 2.364,01',
-                              'R$ >= 2.758,01',
-                              'R$ >= 3.152,01',
-                              'R$ >= 3.940,01',
-                              'R$ >= 5.516,01',
-                              'R$ >= 7.788,01'))
+                              'Entre R$ 788,01 e R$ 1.182,00',
+                              'Entre R$ 1.182,01 e R$ 1.576,00',
+                              'Entre R$ 1.576,01 e R$ 1.970,00',
+                              'Entre R$ 1.970,01 e R$ 2.364,00',
+                              'Entre R$ 2.364,01 e R$ 2.758,00',
+                              'Entre R$ 2.758,01 e R$ 3.152,00',
+                              'Entre R$ 3.152,01 e R$ 3.940,00',
+                              'Entre R$ 3.940,01 e R$ 5.516,00',
+                              'Entre R$ 5.516,01 e R$ 7.788,00',
+                              'R$ 7.788,01 ou mais'))
 
 saeb$TX_RESP_Q011 <- factor(saeb$TX_RESP_Q011,levels=c('A','B','C'),
                             labels=c(
-                              'Sim, na educação',
-                              'Sim, fora da educ.',
+                              'Sim, na área de educação',
+                              'Sim, fora da área de educação',
                               'Não'))
 
 saeb$TX_RESP_Q012 <- factor(saeb$TX_RESP_Q012,levels=c('A','B','C','D','E','F','G','H','I','J','K'),
                             labels=c(
                               'Até R$ 788,00',
-                              'R$ >= 788,01',
-                              'R$ >= 1.182,01',
-                              'R$ >= 1.576,01',
-                              'R$ >= 1.970,01',
-                              'R$ >= 2.364,01',
-                              'R$ >= 2.758,01',
-                              'R$ >= 3.152,01',
-                              'R$ >= 3.940,01',
-                              'R$ >= 5.516,01',
-                              'R$ >= 7.788,01'))
+                              'Entre R$ 788,01 e R$ 1.182,00',
+                              'Entre R$ 1.182,01 e R$ 1.576,00',
+                              'Entre R$ 1.576,01 e R$ 1.970,00',
+                              'Entre R$ 1.970,01 e R$ 2.364,00',
+                              'Entre R$ 2.364,01 e R$ 2.758,00',
+                              'Entre R$ 2.758,01 e R$ 3.152,00',
+                              'Entre R$ 3.152,01 e R$ 3.940,00',
+                              'Entre R$ 3.940,01 e R$ 5.516,00',
+                              'Entre R$ 5.516,01 e R$ 7.788,00',
+                              'R$ 7.788,01 ou mais'))
 
 saeb$TX_RESP_Q013 <- factor(saeb$TX_RESP_Q013,levels=c('A','B','C','D'),
                             labels=c(
-                              '> 40 horas',
+                              'Mais de 40 horas',
                               '40 horas',
-                              '20 a 39 horas',
-                              '< 20 horas'))
+                              'De 20 a 39 horas',
+                              'Menos de 20 horas'))
 
 saeb$TX_RESP_Q014 <- factor(saeb$TX_RESP_Q014,levels=c('A','B','C','D','E','F','G'),
                             labels=c(
-                              'Concurso púb. apenas',
+                              'Concurso público apenas',
                               'Eleição apenas',
                               'Indicação apenas',
-                              'Proc.Selet. Apenas',
-                              'Proc.Selet. e Eleição',
-                              'Proc.Selet. e Indicação',
+                              'Processo seletivo apenas',
+                              'Processo seletivo e Eleição',
+                              'Processo seletivo e Indicação',
                               'Outra forma'))
 
 saeb$TX_RESP_Q015 <- factor(saeb$TX_RESP_Q015,levels=c('A','B','C','D','E','F','G','H'),
                             labels=c(
                               'Nunca',
-                              '< um ano',
+                              'Menos de um ano',
                               '1-2 anos',
                               '3-5 anos',
                               '6-10 anos',
                               '11-15 anos',
                               '16-20 anos',
-                              '> 20 anos'))
+                              'Mais de 20 anos'))
 
 saeb$TX_RESP_Q016 <- factor(saeb$TX_RESP_Q016,levels=c('A','B','C','D','E','F','G'),
                             labels=c(
-                              '< um ano',
+                              'Menos de um ano',
                               '1-2 anos',
                               '3-5 anos',
                               '6-10 anos',
                               '11-15 anos',
                               '16-20 anos',
-                              '> 20 anos'))
+                              'Mais de 20 anos'))
 
 saeb$TX_RESP_Q017 <- factor(saeb$TX_RESP_Q017,levels=c('A','B','C','D','E','F','G'),
                             labels=c(
-                              '< um ano',
+                              'Menos de um ano',
                               '1-2 anos',
                               '3-5 anos',
                               '6-10 anos',
                               '11-15 anos',
                               '16-20 anos',
-                              '> 20 anos'))
+                              'Mais de 20 anos'))
 
 saeb$TX_RESP_Q018 <- factor(saeb$TX_RESP_Q018,levels=c('A','B','C','D','E','F','G'),
                             labels=c(
-                              '< um ano',
+                              'Menos de um ano',
                               '1-2 anos',
                               '3-5 anos',
                               '6-10 anos',
                               '11-15 anos',
                               '16-20 anos',
-                              '> 20 anos'))
+                              'Mais de 20 anos'))
 
 saeb$TX_RESP_Q019 <- factor(saeb$TX_RESP_Q019,levels=c('A','B'),
                             labels=c(
@@ -249,10 +249,10 @@ saeb$TX_RESP_Q019 <- factor(saeb$TX_RESP_Q019,levels=c('A','B'),
 saeb$TX_RESP_Q020 <- factor(saeb$TX_RESP_Q020,levels=c('A','B','C','D','E'),
                             labels=c(
                               'Não participei',
-                              'Sim, e sem impac.',
-                              'Sim, e pequeno impac.',
-                              'Sim, e impac. moderado',
-                              'Sim, e grande impac.'))
+                              'Sim, e não houve impacto',
+                              'Sim, e houve um pequeno impacto',
+                              'Sim, e houve um impacto moderado',
+                              'Sim, e houve um grande impacto'))
 
 saeb$TX_RESP_Q021 <- factor(saeb$TX_RESP_Q021,levels=c('A','B'),
                             labels=c(
@@ -261,25 +261,25 @@ saeb$TX_RESP_Q021 <- factor(saeb$TX_RESP_Q021,levels=c('A','B'),
 
 saeb$TX_RESP_Q022 <- factor(saeb$TX_RESP_Q022,levels=c('A','B','C'),
                             labels=c(
-                              'Não gostaria de ter partic.',
+                              'Não gostaria de ter participado',
                               'Não',
                               'Sim'))
 
 saeb$TX_RESP_Q023 <- factor(saeb$TX_RESP_Q023,levels=c('A','B','C'),
                             labels=c(
-                              'Não gostaria de ter partic.',
+                              'Não gostaria de ter participado',
                               'Não',
                               'Sim'))
 
 saeb$TX_RESP_Q024 <- factor(saeb$TX_RESP_Q024,levels=c('A','B','C'),
                             labels=c(
-                              'Não gostaria de ter partic.',
+                              'Não gostaria de ter participado',
                               'Não',
                               'Sim'))
 
 saeb$TX_RESP_Q025 <- factor(saeb$TX_RESP_Q025,levels=c('A','B','C'),
                             labels=c(
-                              'Não gostaria de ter partic.',
+                              'Não gostaria de ter participado',
                               'Não',
                               'Sim'))
 
@@ -290,56 +290,56 @@ saeb$TX_RESP_Q026 <- factor(saeb$TX_RESP_Q026,levels=c('A','B'),
 
 saeb$TX_RESP_Q027 <- factor(saeb$TX_RESP_Q027,levels=c('A','B','C','D','E'),
                             labels=c(
-                              'Não organiz.ativ.',
-                              'Poucos prof.',
-                              '< metade dos prof',
-                              '> metade dos prof.',
-                              'Quase todos/todos prof.'))
+                              'Não foram organizadas atividades de formação continuada',
+                              'Poucos professores',
+                              'Um pouco menos da metade dos professores',
+                              'Um pouco mais da metade dos professores',
+                              'Quase todos ou todos os professores'))
 
 saeb$TX_RESP_Q028 <- factor(saeb$TX_RESP_Q028,levels=c('A','B','C','D','E'),
                             labels=c(
-                              '<= 25%',
-                              '26% a 50%',
-                              '51% a 75%',
-                              '76% a 90%',
-                              '91% a 100%'))
+                              'Menor ou igual a 25%',
+                              'De 26% a 50%',
+                              'De 51% a 75%',
+                              'De 76% a 90%',
+                              'De 91% a 100%'))
 
 saeb$TX_RESP_Q029 <- factor(saeb$TX_RESP_Q029,levels=c('A','B','C','D','E'),
                             labels=c(
-                              'Não há Cons.Esc',
+                              'Não existe Conselho Escolar',
                               'Nenhuma vez',
-                              '1x',
-                              '2x',
-                              '3x ou mais'))
+                              'Uma vez',
+                              'Duas vezes',
+                              'Três vezes ou mais'))
 
 saeb$TX_RESP_Q030 <- factor(saeb$TX_RESP_Q030,levels=c('A','B','C','D','E','F','G'),
                             labels=c(
-                              'Não há Cons.Esc',
-                              'Prof+func+alunos+pais/resp',
-                              'Prof+func+pais/resp',
-                              'Prof+alunos+pais/resp',
-                              'Prof+func+alunos',
-                              'Prof+pais/resp',
+                              'Não existe Conselho Escolar',
+                              'Professores, funcionários, alunos e pais/responsáveis',
+                              'Professores, funcionários e pais/responsáveis',
+                              'Professores, alunos e pais/responsáveis',
+                              'Professores, funcionários e alunos',
+                              'Professores e pais/responsáveis',
                               'Outros'))
 
 saeb$TX_RESP_Q031 <- factor(saeb$TX_RESP_Q031,levels=c('A','B','C','D','E'),
                             labels=c(
-                              'Não há Cons.Classe',
+                              'Não existe Conselho de Classe',
                               'Nenhuma vez',
-                              '1x',
-                              '2x',
-                              '3x ou mais'))
+                              'Uma vez',
+                              'Duas vezes',
+                              'Três vezes ou mais'))
 
 saeb$TX_RESP_Q032 <- factor(saeb$TX_RESP_Q032,levels=c('A','B','C','D','E','F','G','H'),
                             labels=c(
-                              'Não sei como foi desenv.',
-                              'Não há Proj. Pedag.',
-                              'Util.mod,sem disc.',
-                              'Util.mod,com disc.',
-                              'Util.mod,com adapt,sem disc.',
-                              'Util.mod,com adapt,com disc.',
-                              'Elab.mod,sem disc.',
-                              'Elab.mod,com disc.'))
+                              'Não sei como foi desenvolvido',
+                              'Não existe Projeto Pedagógico',
+                              'Utilizando-se um modelo pronto, sem discussão com a equipe escolar',
+                              'Utilizando-se um modelo pronto, mas com discussão com a equipe escolar',
+                              'Utilizando-se um modelo pronto, porém com adaptações, sem discussão com a equipe escolar',
+                              'Utilizando-se um modelo pronto, porém com adaptações e com discussão com a equipe escolar',
+                              'Elaborou-se um modelo próprio, mas não houve discussão com a equipe escolar',
+                              'Elaborou-se um modelo próprio e houve discussão com a equipe escolar'))
 
 saeb$TX_RESP_Q033 <- factor(saeb$TX_RESP_Q033,levels=c('A','B','C'),
                             labels=c(
@@ -351,13 +351,13 @@ saeb$TX_RESP_Q034 <- factor(saeb$TX_RESP_Q034,levels=c('A','B','C'),
                             labels=c(
                               'Sim',
                               'Não',
-                              'Escola não partic'))
+                              'Minha escola não participou'))
 
 saeb$TX_RESP_Q035 <- factor(saeb$TX_RESP_Q035,levels=c('A','B','C'),
                             labels=c(
                               'Sim',
                               'Não',
-                              'Município não partic'))
+                              'Meu município não participou'))
 
 saeb$TX_RESP_Q036 <- factor(saeb$TX_RESP_Q036,levels=c('A','B'),
                             labels=c(
@@ -366,56 +366,56 @@ saeb$TX_RESP_Q036 <- factor(saeb$TX_RESP_Q036,levels=c('A','B'),
 
 saeb$TX_RESP_Q037 <- factor(saeb$TX_RESP_Q037,levels=c('A','B','C','D','E'),
                             labels=c(
-                              'Prova de seleç',
+                              'Prova de seleção',
                               'Sorteio',
-                              'Local Morad',
-                              'Ordem cheg',
-                              'Outro crit'))
+                              'Local de moradia',
+                              'Prioridade por ordem de chegada',
+                              'Outro critério'))
 
 saeb$TX_RESP_Q038 <- factor(saeb$TX_RESP_Q038,levels=c('A','B','C','D'),
                             labels=c(
-                              'Após matr.há vag',
-                              'Preencheu todas vag',
-                              'Procura pouco > vag',
-                              'Procura >> vagas'))
+                              'Após o processo de matrícula, a escola ainda tinha vagas disponíveis',
+                              'A procura por vaga na escola preencheu todas as vagas oferecidas',
+                              'A procura por vaga na escola foi um pouco maior que as vagas oferecidas',
+                              'A procura por vaga na escola superou em muito o número de vagas oferecidas'))
 
 saeb$TX_RESP_Q039 <- factor(saeb$TX_RESP_Q039,levels=c('A','B','C','D','E','F'),
                             labels=c(
-                              'Homog. idade',
-                              'Homog. rendim',
-                              'Heter. idade',
-                              'Heter. rendim',
+                              'Homogeneidade quando à idade (alunos com a mesma idade)',
+                              'Homogeneidade quanto ao rendimento escolar (alunos com rendimento similar)',
+                              'Heterogeneidade quanto à idade (alunos com idades diferentes)',
+                              'Heterogeneidade quanto ao redimento escolar (alunos com rendimentos diferentes)',
                               'Outro critério',
-                              'Sem critério'))
+                              'Não houve critério'))
 
 saeb$TX_RESP_Q040 <- factor(saeb$TX_RESP_Q040,levels=c('A','B','C','D','E','F','G','H','I','J'),
                             labels=c(
-                              'Prefer. prof',
-                              'Escolh prof f(tempo serv+form)',
-                              'Profs+exper->aprendiz+rápida',
-                              'Profs+exper->aprendiz+lenta',
-                              'Manut. prof. c/mesma turma',
-                              'Revez. prof. entre séries',
-                              'Sorteio turmas prof.',
-                              'Atrib. / direção',
+                              'Preferência dos professores',
+                              'Escolha dos professores, de acordo com a pontuação por tempo de serviço e formação',
+                              'Professores experientes com turmas de aprendizagem mais rápida',
+                              'Professores experientes com turmas de aprendizagem mais lenta',
+                              'Manutenção do professor com a mesma turma',
+                              'Revezamento dos professores entre as séries',
+                              'Sorteio das turmas entre os professores',
+                              'Atribuição pela direção da escola',
                               'Outro critério',
-                              'Sem critério'))
+                              'Não houve critério'))
 
 saeb$TX_RESP_Q041 <- factor(saeb$TX_RESP_Q041,levels=c('A','B','C','D','E'),
                             labels=c(
-                              'Não há ação, embora exista o probl.',
-                              'Não há ação, na escola não há esse probl.',
-                              'Sim, mas com result. insatisf',
-                              'Sim, result satisf',
-                              'Sim, não aval. resultado'))
+                              'Não há ação, embora exista o problema',
+                              'Não há ação, porque nesta escola não há esse tipo de problema',
+                              'Sim, mas com resultados ainda insatisfatórios',
+                              'Sim, com resultados satisfatórios',
+                              'Sim, mas ainda não avaliamos o resultado'))
 
 saeb$TX_RESP_Q042 <- factor(saeb$TX_RESP_Q042,levels=c('A','B','C','D','E'),
                             labels=c(
-                              'Não há ação, embora exista o probl.',
-                              'Não há ação, na escola não há esse probl.',
-                              'Sim, mas com result. insatisf',
-                              'Sim, result satisf',
-                              'Sim, não aval. resultado'))
+                              'Não há ação, embora exista o problema',
+                              'Não há ação, porque nesta escola não há esse tipo de problema',
+                              'Sim, mas com resultados ainda insatisfatórios',
+                              'Sim, com resultados satisfatórios',
+                              'Sim, mas ainda não avaliamos o resultado'))
 
 saeb$TX_RESP_Q043 <- factor(saeb$TX_RESP_Q043,levels=c('A','B'),
                             labels=c(
@@ -509,40 +509,40 @@ saeb$TX_RESP_Q055 <- factor(saeb$TX_RESP_Q055,levels=c('A','B','C','D'),
 saeb$TX_RESP_Q056 <- factor(saeb$TX_RESP_Q056,levels=c('A','B','C','D','E'),
                             labels=c(
                               'Nenhum',
-                              '1 a 5 alunos',
-                              '6 a 10 alunos',
-                              '11 a 20 alunos',
-                              '> 20 alunos'))
+                              'Entre 1 e 5 alunos',
+                              'Entre 6 e 10 alunos',
+                              'Entre 11 e 20 alunos',
+                              'Mais de 20 alunos'))
 
 saeb$TX_RESP_Q057 <- factor(saeb$TX_RESP_Q057,levels=c('A','B','C'),
                             labels=c(
                               'Não',
-                              'Sim, mas pouco adeq.',
-                              'Sim, sufic. adeq.'))
+                              'Sim, mas pouco adequada',
+                              'Sim, suficientemente adequada'))
 
 saeb$TX_RESP_Q058 <- factor(saeb$TX_RESP_Q058,levels=c('A','B','C'),
                             labels=c(
-                              'Não possui sl.rec',
-                              'Sim, mas poucos rec',
-                              'Sim, rec. sufic.'))
+                              'Não possui sala de recursos',
+                              'Sim, mas com poucos recursos',
+                              'Sim, com recursos suficientes'))
 
 saeb$TX_RESP_Q059 <- factor(saeb$TX_RESP_Q059,levels=c('A','B','C'),
                             labels=c(
                               'Não',
-                              'Sim, mas apenas em uma área',
-                              'Sim, em + de uma área'))
+                              'Sim, mas apenas em uma área/deficiência',
+                              'Sim, em mais de uma área/deficiência'))
 
 saeb$TX_RESP_Q060 <- factor(saeb$TX_RESP_Q060,levels=c('A','B','C'),
                             labels=c(
                               'Não',
-                              'Sim, mas núm. insufic',
-                              'Sim, em núm. sufic'))
+                              'Sim, mas em número insuficiente',
+                              'Sim, em número suficiente'))
 
 saeb$TX_RESP_Q061 <- factor(saeb$TX_RESP_Q061,levels=c('A','B','C'),
                             labels=c(
                               'Não',
-                              'Sim, mas núm. insufic',
-                              'Sim, em núm. sufic'))
+                              'Sim, mas em número insuficiente',
+                              'Sim, em número suficiente'))
 
 saeb$TX_RESP_Q062 <- factor(saeb$TX_RESP_Q062,levels=c('A','B','C','D','E'),
                             labels=c(
@@ -702,10 +702,10 @@ saeb$TX_RESP_Q085 <- factor(saeb$TX_RESP_Q085,levels=c('A','B'),
 saeb$TX_RESP_Q086 <- factor(saeb$TX_RESP_Q086,levels=c('A','B','C','D','E'),
                             labels=c(
                               'Não sei',
-                              'Particip. prof.',
-                              'Alguns membros',
-                              'Órgãos ext. à escola',
-                              'De outra maneira'))
+                              'Foi escolhido de forma participativa pelos professores',
+                              'Foi escolhido por somente alguns membros da equipe escolar',
+                              'Foi escolhido por órgãos externos à escola',
+                              'Foi escolhido de outra maneira'))
 
 saeb$TX_RESP_Q087 <- factor(saeb$TX_RESP_Q087,levels=c('A','B','C'),
                             labels=c(
@@ -822,19 +822,19 @@ saeb$TX_RESP_Q108 <- factor(saeb$TX_RESP_Q108,levels=c('A','B'),
 
 saeb$TX_RESP_Q109 <- factor(saeb$TX_RESP_Q109,levels=c('A','B','C'),
                             labels=c(
-                              'Não há ensino relig.',
+                              'Não há aula de ensino religioso',
                               'Sim',
                               'Não'))
 
 saeb$TX_RESP_Q110 <- factor(saeb$TX_RESP_Q110,levels=c('A','B','C'),
                             labels=c(
-                              'Não há ensino relig.',
+                              'Não há aula de ensino religioso',
                               'Sim',
                               'Não'))
 
 saeb$TX_RESP_Q111 <- factor(saeb$TX_RESP_Q111,levels=c('A','B'),
                             labels=c(
-                              'Não há ensino relig.',
+                              'Não há aula de ensino religioso',
                               'Sim'))
 # renomeia os nomes das colunas, para facilitar o entendimento da tabulação cruzada
 
@@ -953,6 +953,7 @@ names(saeb)[118] <- 'Q111_ENSINO.RELIG.ATIV.ESTUD.NÃO.QUEIRAM.PARTICIP'
 # remove as colunas que não possuem dados que façam sentido para uma tabulação cruzada
 saeb <- saeb[,c("ID_PROVA_BRASIL","ID_ESCOLA","IN_PREENCHIMENTO_QUESTIONARIO","ID_MUNICIPIO"):=NULL]
 
+
 dataset <- saeb
 
 # cria a interface com o usuário shiny
@@ -963,9 +964,9 @@ ui <- fluidPage(
   
   sidebarPanel(
   
-    selectInput('col_name', 'Filtrar coluna', c('.', names(dataset))),
+    selectInput('col_name', 'Filtrar coluna', c('None', names(dataset))),
     
-    selectInput('col_val', 'Valor filtro', choices=c('.')),
+    selectInput('col_val', 'Valor filtro', choices=c('None')),
 
     sliderInput('tamanhoAmostra', 'Tamanho da amostra', 
                 min=min(1, nrow(dataset)), 
@@ -975,27 +976,11 @@ ui <- fluidPage(
                 round=0),
     
     selectInput('x', 'X', names(dataset)),
-    selectInput('y', 'Y', names(dataset), names(dataset)[[2]]),
-
-    selectInput('color', 'Cor', c('.', names(dataset))),
-    
-#    checkboxInput('jitter', 'Jitter'),
-#    checkboxInput('smooth', 'Smooth'),
-    
-    selectInput('facet_col', 'Facet Vertical', c(None='.', names(dataset))),
-    selectInput('facet_row', 'Faceta Horizontal', c(None='.', names(dataset)))
-    
+    selectInput('y', 'Y', names(dataset), names(dataset)[[2]])#,
   ),
   
   mainPanel(
-    tabsetPanel(
-      tabPanel('Mosaico (p-value)',plotOutput("mosaico")),
-      tabPanel('Mosaico (friendly)',plotOutput("mosaicoFriendly")),
-      tabPanel('Mosaico (expected)',plotOutput("mosaicoExpected")),
-      tabPanel('Association Plot',plotOutput("assoc")),
-      tabPanel('Sieve',plotOutput("sieve")),
-      tabPanel('Plotagem de pontos',plotOutput("ggplot2"))
-    )
+               plotOutput("mosaico")
   )
 )
 
@@ -1011,12 +996,12 @@ server <- function(input, output, session) {
   observe ({
     print('observe 1')
     colName <- input$col_name
-    if (colName != '.') {
+    if (colName != 'None') {
       colNum <- which(colnames(dataset)==colName)
       print(paste('observe 1: length(colNum)',colNum))
       if (length(colNum)>0) {
         fatores <- dataset[[colNum]]
-        escolhas <- c('.', levels(unique(factor(fatores))))
+        escolhas <- c('None', levels(unique(factor(fatores))))
         updateSelectInput(session,'col_val',
                         label=paste("Filtrar registros com ",colName,' == ?'),
                         choices=escolhas,
@@ -1033,9 +1018,9 @@ server <- function(input, output, session) {
   datasetFiltrado <- reactive({
     print('datasetFiltrado <- reactive')
     colName <- colName()
-    if (colName != '.') {
+    if (colName != 'None') {
       colVal <- colVal()
-      if (colVal != '.') {
+      if (colVal != 'None') {
         colNum <- which(colnames(dataset)==colName)
         print(paste('datasetFiltrado <- reactive: colNum:',colNum," colVal:",colVal))
         datasetFiltrado <- subset(dataset, dataset[[colNum]]==colVal)
@@ -1068,7 +1053,7 @@ server <- function(input, output, session) {
     colName <- input$col_name
     colVal <- input$col_val
     print(paste('observe:input$col_name+input$col_val',colName,'+',colVal))
-    if (colName != '.' & colVal != '.') {
+    if (colName != 'None' & colVal != 'None') {
       nrows <- nrow(datasetFiltrado())
       print(paste('observe:input$col_val:nrows',nrows))
       updateSliderInput(session,'tamanhoAmostra',
@@ -1086,29 +1071,23 @@ server <- function(input, output, session) {
     print('output$mosaico')
     # cria a tabela de contingência com as colunas selecionadas
     dtset <- datasetAmostrado()
-    facetRow <- input$facet_row
-    facetCol <- input$facet_col
-    if (facetRow == '.' & facetCol == '.') {
+    colName <- input$col_name
+    colVal <- input$col_val
+    if (colVal != 'None') {
         tabelaContingencia <-
-            structable(as.formula(sprintf("~%s+%s", input$x, input$y)),
+          xtabs(as.formula(sprintf("~%s+%s", input$x, input$y)),
             data=dtset)
-    } else if (facetRow != '.') {
-      if (facetCol == '.') {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s", facetRow, input$y, input$x)),
-                data=dtset)
-      } else {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s+%s", facetCol, facetRow, input$x, input$y)),
-                data=dtset)
-      }
-    } else { #facetCol != '.'
+    } else if (colName != 'None') {
       tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s+%s", facetCol, input$y, input$x)),
+        xtabs(as.formula(sprintf("~%s+%s+%s", input$x, input$y, colName)),
+              data=dtset)
+    } else {
+      tabelaContingencia <-
+        xtabs(as.formula(sprintf("~%s+%s", input$x, input$y)),
               data=dtset)
     }
     # imprime o gráfico mosaico (biblioteca vcd)
-    print(mosaic(tabelaContingencia,shade=TRUE,direction = 'v', 
+    print(mosaic(tabelaContingencia,gp=shading_Friendly,direction = 'v', 
                  labeling=
                    labeling_border(gp_labels = gpar(fontsize=9),
                                    rot_labels = c(0,90,90,0),
@@ -1117,177 +1096,7 @@ server <- function(input, output, session) {
           )
     
   }, height=700)
-
-  output$mosaicoFriendly <- renderPlot({
-    print('output$mosaicoFriendly')
-    # cria a tabela de contingência com as colunas selecionadas
-    dtset <- datasetAmostrado()
-    facetRow <- input$facet_row
-    facetCol <- input$facet_col
-    if (facetRow == '.' & facetCol == '.') {
-      tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s", input$x, input$y)),
-                   data=dtset)
-    } else if (facetRow != '.') {
-      if (facetCol == '.') {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s", facetRow, input$y, input$x)),
-                     data=dtset)
-      } else {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s+%s", facetCol, facetRow, input$x, input$y)),
-                     data=dtset)
-      }
-    } else { #facetCol != '.'
-      tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s+%s", facetCol, input$y, input$x)),
-                   data=dtset)
-    }
-    # imprime o gráfico mosaico (biblioteca vcd)
-    print(mosaic(tabelaContingencia,gp=shading_Friendly2,direction = 'v', 
-                 labeling=
-                   labeling_border(gp_labels = gpar(fontsize=9),
-                                   rot_labels = c(0,90,90,0),
-                                   just_labels = "right",
-                                   tl_varnames = c(TRUE,FALSE)))
-    )
-    
-  }, height=700)
-
-  output$mosaicoExpected <- renderPlot({
-    print('output$mosaicoFriendly')
-    # cria a tabela de contingência com as colunas selecionadas
-    dtset <- datasetAmostrado()
-    facetRow <- input$facet_row
-    facetCol <- input$facet_col
-    if (facetRow == '.' & facetCol == '.') {
-      tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s", input$x, input$y)),
-                   data=dtset)
-    } else if (facetRow != '.') {
-      if (facetCol == '.') {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s", facetRow, input$y, input$x)),
-                     data=dtset)
-      } else {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s+%s", facetCol, facetRow, input$x, input$y)),
-                     data=dtset)
-      }
-    } else { #facetCol != '.'
-      tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s+%s", facetCol, input$y, input$x)),
-                   data=dtset)
-    }
-    # imprime o gráfico mosaico (biblioteca vcd)
-    print(mosaic(tabelaContingencia,type="expected",gp=shading_Friendly2,direction = 'v', 
-                 labeling=
-                   labeling_border(gp_labels = gpar(fontsize=9),
-                                   rot_labels = c(0,90,90,0),
-                                   just_labels = "right",
-                                   tl_varnames = c(TRUE,FALSE)))
-    )
-    
-  }, height=700)
-
-  output$assoc <- renderPlot({
-    print('output$assoc')
-    # cria a tabela de contingência com as colunas selecionadas
-    dtset <- datasetAmostrado()
-    facetRow <- input$facet_row
-    facetCol <- input$facet_col
-    if (facetRow == '.' & facetCol == '.') {
-      tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s", input$y, input$x)),
-                   data=dtset)
-    } else if (facetRow != '.') {
-      if (facetCol == '.') {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s", facetRow, input$x, input$y)),
-                     data=dtset)
-      } else {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s+%s", facetRow, facetCol, input$y, input$x)),
-                     data=dtset)
-      }
-    } else { #facetCol != '.'
-      tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s+%s", facetCol, input$x, input$y)),
-                   data=dtset)
-    }
-    # imprime o gráfico mosaico (biblioteca vcd)
-    print(assoc(tabelaContingencia, direction = 'v')
-#          gp=shading_Friendly2,direction = 'v', 
-#                 labeling=
-#                   labeling_border(gp_labels = gpar(fontsize=9),
-#                                   rot_labels = c(0,90,90,0),
-#                                   just_labels = "right",
-#                                   tl_varnames = c(TRUE,FALSE)))
-    )
-    
-  }, height=700)
-
-  output$sieve <- renderPlot({
-    print('output$assoc')
-    # cria a tabela de contingência com as colunas selecionadas
-    dtset <- datasetAmostrado()
-    facetRow <- input$facet_row
-    facetCol <- input$facet_col
-    if (facetRow == '.' & facetCol == '.') {
-      tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s", input$y, input$x)),
-                   data=dtset)
-    } else if (facetRow != '.') {
-      if (facetCol == '.') {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s", facetRow, input$x, input$y)),
-                     data=dtset)
-      } else {
-        tabelaContingencia <-
-          structable(as.formula(sprintf("~%s+%s+%s+%s", facetRow, facetCol, input$y, input$x)),
-                     data=dtset)
-      }
-    } else { #facetCol != '.'
-      tabelaContingencia <-
-        structable(as.formula(sprintf("~%s+%s+%s", facetCol, input$x, input$y)),
-                   data=dtset)
-    }
-    # imprime o gráfico mosaico (biblioteca vcd)
-    print(sieve(tabelaContingencia, direction = 'h'))
-          #          gp=shading_Friendly2,direction = 'v', 
-          #                 labeling=
-          #                   labeling_border(gp_labels = gpar(fontsize=9),
-          #                                   rot_labels = c(0,90,90,0),
-          #                                   just_labels = "right",
-          #                                   tl_varnames = c(TRUE,FALSE)))
-    
-    
-  }, height=700)
-
-  output$ggplot2 <- renderPlot({
-    dtset <- datasetAmostrado()
-    print('output$mosaico')
-    # cria a tabela de contingência com as colunas selecionadas
-    p <- ggplot(dtset, aes_string(x=input$x, y=input$y)) + geom_point() 
-
-    p <- p + scale_y_discrete(limits = rev(levels(dtset[[input$y]])))
   
-    if (input$color != '.')
-      p <- p + aes_string(color=input$color)
-  
-    facets <- paste(input$facet_row, '~', input$facet_col)
-    if (facets != '. ~ .')
-      p <- p + facet_grid(facets)
-  
-    #if (input$jitter)
-    p <- p + geom_jitter()
-    #if (input$smooth)
-    #  p <- p + geom_smooth()
-  
-    print(p)
-  
-  }, height=700)
-
 }
 
 # Executa a aplicação shiny 
